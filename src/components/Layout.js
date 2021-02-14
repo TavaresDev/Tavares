@@ -2,18 +2,18 @@ import styles from '../styles/Layout.module.css'
 import Nav from '../components/Nav'
 
 import React from 'react'
+import Footer from './Footer'
 
 const Layout = ({children}) => {
     return (
         <>
         <Nav/>
 
-        <div className={styles.container} >
-            <main className={styles.main}>
-                {children}
-            </main>
+        {children}
+
             
-        </div>
+     
+        <Footer/>
         </>
     )
 }
