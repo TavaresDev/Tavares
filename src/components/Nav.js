@@ -9,20 +9,14 @@ const Nav = () => {
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
 			<Navbar.Collapse id='basic-navbar-nav'>
 
-				{/* <Link href='/' passHref>
-					<Nav.Link>Home</Nav.Link>
+		
+				<Link className="nav-item" href='/'>
+					<a className="nav-link">Home</a>
 				</Link>
-				<Link href='/contact' passHref>
-					<Nav.Link>Contact</Nav.Link>
-				</Link> */}
+				<Link href='/about'>
+					<a>About</a>
+				</Link>
 
-				{/* <Link href="/">
-              <a>Home</a>
-            </Link>
-            <Link href="/about">
-              <a>About</a>
-              </Link>
-           */}
 			</Navbar.Collapse>
 		</Navbar>
 	)

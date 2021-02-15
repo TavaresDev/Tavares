@@ -12,9 +12,9 @@ export default function Home({articles}) {
   return (
     <>
       <Hero heroTitle={name} subTitle={subTitle}/>
+      <AboutWork/>
       <AboutInfo text1='here is some text about me company' text2='here is some text about me company'/>
       <AboutInfo bg='bg-info' order={'order-lg-2 order-md-1'} text1='here is some text about me company' text2='here is some text about me company'/>
-      <AboutWork/>
 
 
    

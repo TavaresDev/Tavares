@@ -3,10 +3,10 @@ import { Container } from 'react-bootstrap'
 
 const Footer = () => {
     return (
-        <Container className='text-center box'>
+        <footer>
             <p>Developed by me</p>
             
-        </Container>
+        </footer>
     )
 }
 

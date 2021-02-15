@@ -1,10 +1,10 @@
-.hero {
+/* .hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 /* @media(min-width:1200px) {
   .hero h1 {
       font-size: 39rem;

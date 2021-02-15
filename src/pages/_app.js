@@ -4,11 +4,11 @@ import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }) {
 	return (
-    <>
-		<Layout>
+
+		<Layout className='main'>
 			<Component {...pageProps} />
 		</Layout>
-    </>
+
 	)
 }
 
