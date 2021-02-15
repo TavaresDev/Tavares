@@ -10,8 +10,8 @@ const Hero = ({ heroTitle, subTitle }) => {
 			imageSrc='https://unsplash.it/2000/2000'
 			color='blue'
 			minHeight='80vh'
-			opacity='0.4'
-			parallaxOffset= '51'>
+			opacity={Number(0.4)}
+			parallaxOffset= {Number(0.4)}>
                 
                 <h1 className='text-light' >{heroTitle}</h1>
                 <h3>{subTitle}</h3>

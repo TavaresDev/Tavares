@@ -1,7 +1,7 @@
 import React from "react"
 import { Row, Col, Container } from "react-bootstrap"
 import Image from "next/image"
-// import { Image, Row ,Col} from '../../public/'
+
 
 const AboutInfo = ({ text1, text2 , order, bg}) => {
 
