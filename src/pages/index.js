@@ -13,6 +13,7 @@ export default function Home({articles}) {
     <>
       <Hero heroTitle={name} subTitle={subTitle}/>
       <AboutInfo text1='here is some text about me company' text2='here is some text about me company'/>
+      <AboutInfo bg='bg-info' order={'order-lg-2 order-md-1'} text1='here is some text about me company' text2='here is some text about me company'/>
       <AboutWork/>
 
 
@@ -22,14 +23,14 @@ export default function Home({articles}) {
   )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
-  const articles = await res.json()
-  return {
-    props: {
-      articles
+// export const getStaticProps = async () => {
+//   const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
+//   const articles = await res.json()
+//   return {
+//     props: {
+//       articles
 
-    }
-  }
+//     }
+//   }
 
-}
+// }

@@ -8,9 +8,20 @@ body {
 * {
   box-sizing: border-box;
 }
+.hero {
+  height: 100vh;
 
+}
+
+
+.sec {
+  padding: 4rem 0;
+}
 .box {
   border: solid red ;
+}
+.card{
+  max-width: 18rem;
 }
 
 /* a {

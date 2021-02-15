@@ -17,9 +17,10 @@ const AboutWork = () => {
 			</Row>
 			<Row>
 				<Col md={6}>
-					<Card>
-						<Card.Title> title of card</Card.Title>
+                <Card>
 						<Card.Body>
+						<Card.Title> title of card</Card.Title>
+             
 							<Card.Text>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
 								dolorem non repudiandae eveniet nostrum fugiat similique placeat
@@ -29,7 +30,20 @@ const AboutWork = () => {
 						</Card.Body>
 					</Card>
 				</Col>
-				<Col md={6}></Col>
+				<Col md={6}>
+                <Card>
+						<Card.Body>
+						<Card.Title> title of card</Card.Title>
+             
+							<Card.Text>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+								dolorem non repudiandae eveniet nostrum fugiat similique placeat
+								accusantium illum sapiente neque deleniti corrupti voluptatem,
+								commodi officia corporis consectetur dicta quas?
+							</Card.Text>
+						</Card.Body>
+					</Card>
+                </Col>
 			</Row>
 		</Container>
 	)

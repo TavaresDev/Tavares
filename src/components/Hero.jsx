@@ -1,12 +1,12 @@
 import React from 'react'
 import { Jumbotron, Container} from 'react-bootstrap'
-import styles from '../styles/Layout.module.css'
+import styles from '../styles/Hero.module.css'
 
 const Hero = ({heroTitle, subTitle}) => {
     
     
     return (
-        <Jumbotron className='hero'>
+        <Jumbotron className={styles.hero}>
             <Container className='text-center wraper'>
 
             <h1>{heroTitle}</h1>
@@ -24,6 +24,7 @@ const Hero = ({heroTitle, subTitle}) => {
             h1 {
               color: blue;
             }
+            
  
           `}</style>
             </Container>
